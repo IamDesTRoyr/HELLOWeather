@@ -16,21 +16,23 @@
 <body>
   <div class="wrapper shadow-lg rounded m-2">
     <header><i class='bx bx-left-arrow-alt'></i>
-      <p class="d-flex justify-content-center w-100 m-0 fw-semibold">Weather App</p>
+      <p class="d-flex justify-content-center w-100 m-0 fw-semibold">Hello Weather</p>
     </header>
     <section class="input-part">
       <p class="info-txt"></p>
       <div class="content">
-        <input type="text" spellcheck="false" placeholder="Enter City Name" required>
+        <input class="searchbox" type="text" spellcheck="false" placeholder="Enter City Name" required>
+        <button class="shadow rounded fetch-city-btn">Enter the location</button>
         <div class="separator"></div>
-        <button class="shadow rounded">Use Geolocation</button>
+        <button class="shadow rounded location-btn">Use Current Location</button>
       </div>
     </section>
+    
     <section class="weather-part">
       <img src="" alt="Weather Icon">
       <div class="temp">
         <span class="numb">_</span>
-        <span class="deg">°</span>C
+        <span class="deg">°</span>
       </div>
       <div class="weather">_ _</div>
       <div class="location">

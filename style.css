@@ -12,7 +12,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: #00a1ff;
-  background-image: linear-gradient(135deg, #00a1ff 20%, #c000ff 80%);
+  background-image: linear-gradient(135deg, #2c775f 20%, #5e81b1 80%);
 }
 ::selection {
   color: #fff;
@@ -22,7 +22,7 @@ body {
   width: 400px;
   background: #fff;
   border-radius: 10px;
-  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05); */
+  
 }
 .wrapper header {
   display: flex;
@@ -103,6 +103,9 @@ header i {
   font-size: 19px;
   padding: 0 15px;
   background: #fff;
+}
+.searchbox{
+  margin-bottom: 5vh;
 }
 .input-part button {
   color: #fff;
@@ -197,4 +200,19 @@ header i {
 }
 .humidity i {
   font-size: 37px;
+}
+
+.location-btn {
+  background-color: #007bff;
+  color: white;
+  margin-top:10px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.location-btn:hover {
+  background-color: #0056b3;
 }
